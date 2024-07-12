@@ -103,6 +103,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             try {
                 const response = await fetch(`https://es.demeq.com/cac/back/peliculas.php?id=${peliculaId}`, {
                     method: 'DELETE',
+                    mode: 'no-cors',
                     headers: {
                         'Content-Type': 'application/json'
                     }
