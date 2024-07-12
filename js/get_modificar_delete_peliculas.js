@@ -4,6 +4,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const options = {
         method: 'GET',
+        mode: 'no-cors',
         headers: {
             'Content-Type': 'application/json'
         }

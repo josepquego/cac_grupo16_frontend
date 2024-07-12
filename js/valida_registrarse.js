@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const options = {
                 method: 'POST',
+                mode: 'no-cors',
                 headers: {
                     'Content-Type': 'application/json'
                 },

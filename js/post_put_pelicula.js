@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Configurar opciones para la petición fetch
         const options = {
             method: method,
+            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json'
             },
